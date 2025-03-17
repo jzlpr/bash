@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+#
+# http-request.sh
+#
 
 # Open file descritor
 exec 3<>/dev/tcp/icanhazip.com/80
