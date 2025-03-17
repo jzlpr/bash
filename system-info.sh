@@ -2,7 +2,6 @@
 #
 # system-info.sh
 #
-
 HOSTNAME=$(hostname)
 UPTIME=$(uptime -p)
 MEMORY=$(free -h)
