@@ -8,7 +8,7 @@ program=(
     "eza"
 )
 
-# Uppdatera repositories
+# Update
 sudo apt-get update
 
 # Clear screen
