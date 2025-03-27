@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Array med program som ska installeras
+# Array of programs to install
 program=(
     "vim" 
     "git" 
@@ -8,18 +8,21 @@ program=(
     "eza"
 )
 
-# Uppdatera paketlistan först
+# Uppdatera repositories
 sudo apt-get update
 
-# Loopa igenom arrayen och installera varje program
+# Clear screen
+clear
+
+# Loop the array and install packages
 for p in "${program[@]}"; do
-    echo "Installerar $p..."
+    echo "Installing $p..."
     sudo apt-get install -y "$p"
     if [ $? -eq 0 ]; then
-        echo "$p installerat"
+        echo "$p installed"
     else
-        echo "Fel vid installation av $p"
+        echo "Error installing $p"
     fi
 done
 
-echo "Installation av program klar!"
+echo "Installation completed successfully!"
