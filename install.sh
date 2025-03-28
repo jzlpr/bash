@@ -12,7 +12,7 @@ program=(
     "git" 
     "tldr" 
     "exa"
-    "batcat"
+    "bat"
     "btop"
 )
 
