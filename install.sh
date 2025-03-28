@@ -11,7 +11,9 @@ program=(
     "vim" 
     "git" 
     "tldr" 
-    "eza"
+    "exa"
+    "batcat"
+    "btop"
 )
 
 # Update
