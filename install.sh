@@ -15,7 +15,7 @@ program=(
 )
 
 # Update
-sudo apt-get update
+apt-get update
 
 # Clear screen
 clear
@@ -23,7 +23,7 @@ clear
 # Loop the array and install packages
 for p in "${program[@]}"; do
     echo "Installing $p..."
-    sudo apt-get install -y "$p"
+    apt-get install -y "$p"
     if [ $? -eq 0 ]; then
         echo "$p installed"
     else
