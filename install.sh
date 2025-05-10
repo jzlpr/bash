@@ -29,6 +29,7 @@ program=(
   "tmux"
   "bat"
   "btop"
+  "eza"
 )
 
 # Update system package index
