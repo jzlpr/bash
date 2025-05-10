@@ -26,7 +26,7 @@ program=(
   "vim"
   "git"
   "tldr"
-  "exa"
+  "tmux"
   "bat"
   "btop"
 )
