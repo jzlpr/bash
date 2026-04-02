@@ -37,3 +37,5 @@ echo
 echo "========================="
 echo "CPU Information:"
 echo "$CPU"
+echo "========================="
+
